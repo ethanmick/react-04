@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  font-size: 1.125rem;
+}
+
+ul {
+  margin: 100px auto;
+  max-width: 500px;
+  list-style: none;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+li:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
